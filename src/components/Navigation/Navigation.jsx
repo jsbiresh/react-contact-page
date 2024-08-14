@@ -1,8 +1,8 @@
-// import logo from '../images/logo.png'
+import styles from "./Navigation.module.css";
 
 const Navigation = () => {
   return (
-    <nav>
+    <nav className={`${styles.navigation} container`}>
       <div>
         <img src="../images/logo.png" alt="Logo" />
       </div>
